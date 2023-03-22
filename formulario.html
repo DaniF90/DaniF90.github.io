@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeF1VE_05fAwNV6aMhW4UvlR_mgZoLuwkwUQ&usqp=CAU">
+</head>
+<body>
+    <a href="./index.html" class="btn2">Back</a>   
+    <div class="container-form">
+        <div class="info-form">
+            <h2>Contact Form</h2>
+            <p>Hello, thank you for contacting me. I will leave you my contact information together or you can leave me a message and I will answer you as quickly as possible. Thank you</p>
+            <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>(486) 481-0489 3920</a>
+            <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>joylewis@email.com</a>
+            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>Dogwood Ave, NY, EEU</a>
+        </div>
+        
+        <form action="https://formsubmit.co/tuemail@email.com" method="POST"> <!--Poner en "tuemail@email.com" el correo a donde quieran enviar el formulario-->
+            <input type="text" name="nombre" placeholder="Insert your name" class="campo">
+            <input type="email" name="email" placeholder="Insert your email" class="campo">
+            <textarea name="mensaje" placeholder="Write your message"></textarea>
+            <input type="submit" name="enviar" value="Send message" class="btn-enviar">
+        </form>
+    </div>
+    
+</body>
+</html>
